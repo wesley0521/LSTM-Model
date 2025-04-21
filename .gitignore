@@ -1,0 +1,16 @@
+# 數據文件
+*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 環境
+venv/
+env/
+.env
+
+# IDE
+.vscode/
+.idea/ 
