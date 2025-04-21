@@ -106,7 +106,7 @@ Features_Train = Feature_Scaler.transform(Features_Train)
 
 
 from tqdm import tqdm
-# 每 ? 個 time_stamp 的資料為一組(ex: ?=28 則 day_1~day_28)，目標是預測下一個 time_stamp (ex: day_29)的所有產品銷量
+# 每 7 個 time_stamp 的資料為一組，目標是預測下一個 time_stamp (ex: day_8)的所有產品銷量
 time_stamps = 7
 def create_dataset(data, time_stamps):
     x = []
