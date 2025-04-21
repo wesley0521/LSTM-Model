@@ -1,5 +1,8 @@
+# 需要先至 Kaggle 下載資料集
+# 資料集連結: https://www.kaggle.com/competitions/store-sales-time-series-forecasting/overview
+
+
 import pandas as pd
-from time import time
 
 sample_submission = pd.read_csv("sample_submission.csv")
 calendar = pd.read_csv("calendar.csv")
